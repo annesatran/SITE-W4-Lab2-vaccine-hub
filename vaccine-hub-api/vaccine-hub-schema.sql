@@ -5,5 +5,5 @@ CREATE TABLE users (
     first_name  TEXT NOT NULL,
     last_name   TEXT NOT NULL,
     location    TEXT NOT NULL,
-    date        TEXT NOT NULL
+    date        DATE NOT NULL DEFAULT CURRENT_DATE
 );
